@@ -12,5 +12,4 @@ Pod::Spec.new do |spec|
   spec.source = { git: "https://github.com/dearprakash/AIFontIconView.git", tag: "v#{spec.version}", submodules: true }
   spec.source_files = "RGB/**/*.{h,swift}"
 
-  spec.dependency "Alamofire", "3.0"
 end
