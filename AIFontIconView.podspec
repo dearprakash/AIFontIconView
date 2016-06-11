@@ -10,6 +10,6 @@ Pod::Spec.new do |spec|
   spec.platform = :ios, "9.1"
   spec.requires_arc = true
   spec.source = { git: "https://github.com/dearprakash/AIFontIconView.git", tag: "v#{spec.version}", submodules: true }
-  spec.source_files = "RGB/**/*.{h,swift}"
+  spec.source_files = "AIFontIconView/**/*.{h,swift}"
 
 end
